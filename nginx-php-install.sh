@@ -8,7 +8,7 @@ sudo mkdir /var/www/
 sudo mkdir /var/www/html
 sudo service nginx stop
 sudo rm -rf /etc/nginx/nginx.conf
-cd /etc/nginx
-wget -c https://raw.githubusercontent.com/titandevph/bash-scripts/master/nginx.conf
+sudo cd /etc/nginx
+sudo wget -c https://raw.githubusercontent.com/titandevph/bash-scripts/master/nginx.conf
 sudo service php5-fpm restart
 sudo service nginx restart
