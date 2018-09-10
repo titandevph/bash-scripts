@@ -10,5 +10,7 @@ sudo service nginx stop
 sudo rm -rf /etc/nginx/nginx.conf
 sudo wget -c https://raw.githubusercontent.com/titandevph/bash-scripts/master/nginx.conf
 sudo mv nginx.conf /etc/nginx/nginx.conf
+sudo wget -c https://raw.githubusercontent.com/titandevph/hello-world-php/master/index.php
+sudo mv index.php /var/www/html/index.php
 sudo service php5-fpm restart
 sudo service nginx restart
